@@ -1,0 +1,100 @@
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    background-color: green;
+    height: 100px;
+}
+
+.ul-container{
+    display: flex;
+    height: 100px;
+    justify-content: left;
+    align-items: center;
+}
+
+.list{
+    list-style-type: none;
+    margin: 20px;
+    font-size: 25px;
+    color:#fff;
+}
+.list > a{
+    color: white;
+    text-decoration: none;
+}
+.list >a:hover{
+    color: red;
+    transition: .7s ease-in-out;
+    animation-delay: .3s;
+}
+.list >a:active{
+    border: 2px solid blue;
+    border-radius: 10px;
+    color: darkorange;
+    background-color: black;
+}
+.container1{
+    background-color: black;
+    height: 20px;
+}
+
+.ul-container1{
+    display: flex;
+    height: 20px;
+    justify-content: right;
+    align-items: center;
+}
+
+.list1{
+    list-style-type: none;
+    margin: 20px;
+    font-size: 15px;
+    color:blue;
+}
+.list1 > a{
+    color: blue;
+    text-decoration: none;
+}
+.list1 >a:hover{
+    color: violet;
+    transition: .7s ease-in-out;
+    animation-delay: .3s;
+}
+.list1 >a:active{
+    border: 2px solid blue;
+    border-radius: 10px;
+    color: darkorange;
+    background-color: black;
+}
+.text1{
+    background-color: yellowgreen;
+    height: 40px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.text1 >p{
+    font-size: 24px;
+    text-indent: 20px;
+    font-variant: small-caps;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.image1{
+    /* background-color: red; */
+    margin: 10px;
+}
+.image1 >img{
+    height: 240px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 2px;
+}
+body{
+    background-color: rgba(23, 209, 94, .7);
+}
